@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "DEPLOY"
+echo "==DEPLOY=="
 echo "branch: $TRAVIS_BRANCH"
 echo "tag: $TRAVIS_TAG"
 echo "event type: $TRAVIS_EVENT_TYPE"
