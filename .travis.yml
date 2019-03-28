@@ -6,6 +6,7 @@ script:
   - 'echo "Build started"'
   - printenv | grep -E "^TRAVIS_"
   - 'echo "Build succeed"'
+  - bash scripts/dispatcher.sh
 
 deploy:
   - provider: script
