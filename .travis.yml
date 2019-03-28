@@ -3,6 +3,8 @@ node_js:
  - "node"
 
 script:
+  - 'echo "Build started"'
+  - printenv | grep -E "^TRAVIS_"
   - 'echo "Build succeed"'
 
 deploy:
