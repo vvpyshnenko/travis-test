@@ -2,6 +2,9 @@ language: node_js
 node_js:
  - "node"
 
+before_install:
+  - bash scripts/current_action.sh
+
 script:
   - 'echo "Build started"'
   - printenv | grep -E "^TRAVIS_"
